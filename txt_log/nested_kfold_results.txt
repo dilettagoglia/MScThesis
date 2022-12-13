@@ -1,0 +1,2163 @@
+
+----------------------------------------------------------------------------------------------------
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+Inner fold #1
+>r2=0.783, best=0.80308, cfg={'n_estimators': 150, 'min_samples_split': 40, 'min_samples_leaf': 10, 'max_features': 'auto', 'max_depth': 6, 'criterion': 'mae', 'bootstrap': False}
+Inner fold #2
+>r2=0.779, best=0.80582, cfg={'n_estimators': 200, 'min_samples_split': 38, 'min_samples_leaf': 12, 'max_features': 'auto', 'max_depth': None, 'criterion': 'mse', 'bootstrap': False}
+Inner fold #3
+>r2=0.887, best=0.82911, cfg={'n_estimators': 200, 'min_samples_split': 38, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 5, 'criterion': 'mse', 'bootstrap': True}
+Inner fold #4
+>r2=0.917, best=0.81687, cfg={'n_estimators': 150, 'min_samples_split': 44, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 7, 'criterion': 'mse', 'bootstrap': True}
+Inner fold #5
+>r2=0.887, best=0.81045, cfg={'n_estimators': 100, 'min_samples_split': 32, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': None, 'criterion': 'mse', 'bootstrap': True}
+Randomized search with Nested K-fold Cross Validation for Random Forest model completed !
+
+Mean R2: 0.851 (0.058)
+
+[2022-10-07 19:53:40.260741]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.783, best=0.80565, cfg={'n_estimators': 50, 'min_samples_split': 40, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': None, 'criterion': 'mae', 'bootstrap': False}
+
+Inner fold #2
+>r2=0.792, best=0.80017, cfg={'n_estimators': 200, 'min_samples_split': 38, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 5, 'criterion': 'mse', 'bootstrap': True}
+
+Inner fold #3
+>r2=0.894, best=0.83379, cfg={'n_estimators': 50, 'min_samples_split': 36, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 7, 'criterion': 'mse', 'bootstrap': True}
+
+Inner fold #4
+>r2=0.923, best=0.80596, cfg={'n_estimators': 50, 'min_samples_split': 44, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 5, 'criterion': 'mse', 'bootstrap': False}
+
+Inner fold #5
+>r2=0.892, best=0.81216, cfg={'n_estimators': 200, 'min_samples_split': 40, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 5, 'criterion': 'mse', 'bootstrap': True}
+Randomized search with Nested K-fold Cross Validation for Random Forest model completed !
+
+Mean R2: 0.857 (0.058)
+
+[2022-10-07 20:01:41.684009]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.783, best=0.80565, cfg={'n_estimators': 50, 'min_samples_split': 40, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 10, 'criterion': 'mae', 'bootstrap': False}
+
+Inner fold #2
+>r2=0.779, best=0.80401, cfg={'n_estimators': 100, 'min_samples_split': 38, 'min_samples_leaf': 12, 'max_features': 'auto', 'max_depth': 7, 'criterion': 'mse', 'bootstrap': False}
+
+Inner fold #3
+>r2=0.895, best=0.83196, cfg={'n_estimators': 50, 'min_samples_split': 38, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 7, 'criterion': 'mse', 'bootstrap': True}
+
+Inner fold #4
+>r2=0.924, best=0.81214, cfg={'n_estimators': 150, 'min_samples_split': 34, 'min_samples_leaf': 12, 'max_features': 'auto', 'max_depth': 10, 'criterion': 'mse', 'bootstrap': False}
+
+Inner fold #5
+>r2=0.892, best=0.80992, cfg={'n_estimators': 200, 'min_samples_split': 34, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 5, 'criterion': 'mse', 'bootstrap': True}
+Randomized search with Nested K-fold Cross Validation for Random Forest model completed !
+
+Mean R2: 0.855 (0.061)
+
+[2022-10-07 20:06:54.511587]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.785, best=0.80292, cfg={'n_estimators': 100, 'min_samples_split': 34, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 5, 'criterion': 'mae', 'bootstrap': False}
+
+Inner fold #2
+>r2=0.800, best=0.79864, cfg={'n_estimators': 200, 'min_samples_split': 32, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 6, 'criterion': 'mse', 'bootstrap': True}
+
+Inner fold #3
+>r2=0.881, best=0.82946, cfg={'n_estimators': 200, 'min_samples_split': 32, 'min_samples_leaf': 10, 'max_features': 'auto', 'max_depth': 6, 'criterion': 'mse', 'bootstrap': False}
+
+Inner fold #4
+>r2=0.929, best=0.81364, cfg={'n_estimators': 100, 'min_samples_split': 40, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 7, 'criterion': 'mse', 'bootstrap': True}
+
+Inner fold #5
+>r2=0.885, best=0.81680, cfg={'n_estimators': 100, 'min_samples_split': 42, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 6, 'criterion': 'mse', 'bootstrap': True}
+Randomized search with Nested K-fold Cross Validation for Random Forest model completed !
+
+Mean R2: 0.856 (0.055)
+
+[2022-10-07 20:15:36.732313]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.788, best=0.80210, cfg={'n_estimators': 50, 'min_samples_split': 34, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 7, 'criterion': 'mae', 'bootstrap': False}
+
+Inner fold #2
+>r2=0.776, best=0.79915, cfg={'n_estimators': 200, 'min_samples_split': 32, 'min_samples_leaf': 12, 'max_features': 'auto', 'max_depth': 6, 'criterion': 'mse', 'bootstrap': False}
+
+Inner fold #3
+>r2=0.897, best=0.83159, cfg={'n_estimators': 50, 'min_samples_split': 34, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': None, 'criterion': 'mse', 'bootstrap': True}
+
+Inner fold #4
+>r2=0.928, best=0.81133, cfg={'n_estimators': 150, 'min_samples_split': 38, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 7, 'criterion': 'mse', 'bootstrap': False}
+
+Inner fold #5
+>r2=0.896, best=0.81455, cfg={'n_estimators': 150, 'min_samples_split': 36, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 5, 'criterion': 'mse', 'bootstrap': True}
+Randomized search with Nested K-fold Cross Validation for Random Forest model completed !
+
+Mean R2: 0.857 (0.063)
+
+[2022-10-07 20:30:07.001288]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.783, best=0.80508, cfg={'n_estimators': 200, 'min_samples_split': 42, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': None, 'criterion': 'mae', 'bootstrap': False}
+
+Inner fold #2
+>r2=0.797, best=0.79983, cfg={'n_estimators': 50, 'min_samples_split': 40, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': None, 'criterion': 'mse', 'bootstrap': True}
+
+Inner fold #3
+>r2=0.898, best=0.83815, cfg={'n_estimators': 50, 'min_samples_split': 40, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 10, 'criterion': 'mse', 'bootstrap': True}
+
+Inner fold #4
+>r2=0.926, best=0.81608, cfg={'n_estimators': 50, 'min_samples_split': 32, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 10, 'criterion': 'mse', 'bootstrap': False}
+
+Inner fold #5
+>r2=0.890, best=0.81606, cfg={'n_estimators': 150, 'min_samples_split': 36, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 5, 'criterion': 'mse', 'bootstrap': True}
+Randomized search with Nested K-fold Cross Validation for Random Forest model completed !
+
+Mean R2: 0.859 (0.058)
+
+[2022-10-07 20:39:33.257509]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.783, best=0.80304, cfg={'n_estimators': 200, 'min_samples_split': 42, 'min_samples_leaf': 10, 'max_features': 'auto', 'max_depth': 10, 'criterion': 'mae', 'bootstrap': False}
+
+Inner fold #2
+>r2=0.804, best=0.79043, cfg={'n_estimators': 100, 'min_samples_split': 42, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': None, 'criterion': 'mse', 'bootstrap': True}
+
+Inner fold #3
+>r2=0.893, best=0.83193, cfg={'n_estimators': 100, 'min_samples_split': 38, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 8, 'criterion': 'mse', 'bootstrap': True}
+
+Inner fold #4
+>r2=0.879, best=0.76126, cfg={'n_estimators': 150, 'min_samples_split': 32, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 10, 'criterion': 'mae', 'bootstrap': True}
+
+Inner fold #5
+>r2=0.898, best=0.80103, cfg={'n_estimators': 200, 'min_samples_split': 32, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 6, 'criterion': 'mse', 'bootstrap': False}
+Randomized search with Nested K-fold Cross Validation for Random Forest model completed !
+
+Mean R2: 0.851 (0.048)
+
+[2022-10-07 21:03:17.506832]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.761, best=0.74331, cfg={'n_estimators': 50, 'min_samples_split': 32, 'min_samples_leaf': 10, 'max_features': 'auto', 'max_depth': 3, 'criterion': 'mse', 'bootstrap': False}
+
+Inner fold #2
+>r2=0.803, best=0.80357, cfg={'n_estimators': 200, 'min_samples_split': 36, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 6, 'criterion': 'mse', 'bootstrap': True}
+
+Inner fold #3
+>r2=0.882, best=0.83042, cfg={'n_estimators': 100, 'min_samples_split': 40, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 10, 'criterion': 'mse', 'bootstrap': False}
+
+Inner fold #4
+>r2=0.926, best=0.81020, cfg={'n_estimators': 100, 'min_samples_split': 38, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 6, 'criterion': 'mse', 'bootstrap': False}
+
+Inner fold #5
+>r2=0.880, best=0.80080, cfg={'n_estimators': 50, 'min_samples_split': 34, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 10, 'criterion': 'mse', 'bootstrap': True}
+Randomized search with Nested K-fold Cross Validation for Random Forest model completed !
+
+Mean R2: 0.850 (0.060)
+
+[2022-10-07 21:20:27.793012]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.786, best=0.80337, cfg={'n_estimators': 200, 'min_samples_split': 34, 'min_samples_leaf': 10, 'max_features': 'auto', 'max_depth': 5, 'criterion': 'mae', 'bootstrap': False}
+
+Inner fold #2
+>r2=0.772, best=0.80299, cfg={'n_estimators': 200, 'min_samples_split': 44, 'min_samples_leaf': 12, 'max_features': 'auto', 'max_depth': 7, 'criterion': 'mse', 'bootstrap': False}
+
+Inner fold #3
+>r2=0.892, best=0.83174, cfg={'n_estimators': 200, 'min_samples_split': 38, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 10, 'criterion': 'mse', 'bootstrap': True}
+
+Inner fold #4
+>r2=0.929, best=0.81874, cfg={'n_estimators': 50, 'min_samples_split': 36, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 10, 'criterion': 'mse', 'bootstrap': False}
+
+Inner fold #5
+>r2=0.893, best=0.79863, cfg={'n_estimators': 150, 'min_samples_split': 32, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 5, 'criterion': 'mse', 'bootstrap': False}
+Randomized search with Nested K-fold Cross Validation for Random Forest model completed !
+
+Mean R2: 0.854 (0.063)
+
+[2022-10-07 21:35:48.593702]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.786, best=0.78284, cfg={'n_estimators': 150, 'min_samples_split': 42, 'min_samples_leaf': 10, 'max_features': 'auto', 'max_depth': 6, 'criterion': 'mse', 'bootstrap': False}
+
+Inner fold #2
+>r2=0.772, best=0.80481, cfg={'n_estimators': 50, 'min_samples_split': 44, 'min_samples_leaf': 12, 'max_features': 'auto', 'max_depth': None, 'criterion': 'mse', 'bootstrap': False}
+
+Inner fold #3
+>r2=0.897, best=0.83125, cfg={'n_estimators': 100, 'min_samples_split': 40, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 7, 'criterion': 'mse', 'bootstrap': True}
+
+Inner fold #4
+>r2=0.925, best=0.81521, cfg={'n_estimators': 50, 'min_samples_split': 40, 'min_samples_leaf': 10, 'max_features': 'auto', 'max_depth': 8, 'criterion': 'mse', 'bootstrap': False}
+
+Inner fold #5
+>r2=0.895, best=0.79680, cfg={'n_estimators': 50, 'min_samples_split': 32, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 10, 'criterion': 'mse', 'bootstrap': True}
+Randomized search with Nested K-fold Cross Validation for Random Forest model completed !
+
+Mean R2: 0.855 (0.063)
+
+[2022-10-10 12:19:54.926852]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.729, best=0.57318, cfg={'mlpregressor__solver': 'sgd', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.9, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (10,), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 'auto', 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+
+Inner fold #2
+>r2=-1.339, best=0.63204, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.9, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (8,), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 'auto', 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+
+Inner fold #3
+>r2=0.873, best=0.73862, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.6, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (8, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 'auto', 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+
+Inner fold #4
+>r2=0.906, best=0.85746, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.7, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.001, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (8, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 128, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+
+Inner fold #5
+>r2=0.766, best=0.70084, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.6, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.1, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (10,), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 'auto', 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+Randomized search with Nested K-fold Cross Validation for Multi-layer Perceptron regressor model completed !
+
+Mean R2: 0.387 (0.866)
+
+[2022-10-10 12:32:53.329345]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.865, best=0.66745, cfg={'mlpregressor__solver': 'sgd', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.9, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.1, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (10,), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+
+Inner fold #2
+>r2=0.011, best=0.68068, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': True, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.7, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.1, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (10,), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 'auto', 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+
+Inner fold #3
+>r2=0.872, best=0.77624, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.9, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.001, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (8, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 128, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+
+Inner fold #4
+>r2=0.927, best=0.84632, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.7, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.001, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (8, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 128, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+
+Inner fold #5
+>r2=0.924, best=0.73860, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.6, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (4,), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 128, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+Randomized search with Nested K-fold Cross Validation for Multi-layer Perceptron regressor model completed !
+
+Mean R2: 0.720 (0.355)
+
+[2022-10-10 14:45:32.892882]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.877, best=0.26330, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': True, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.9, 'mlpregressor__max_iter': 10000, 'mlpregressor__learning_rate_init': 0.1, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (8, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+MSE:	5.1592168472459667e-05
+RMSE:	0.007182768858348406
+MAE:	0.004033087090260833
+
+Inner fold #2
+>r2=-0.008, best=0.52341, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.7, 'mlpregressor__max_iter': 10000, 'mlpregressor__learning_rate_init': 0.1, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (8, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 128, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+MSE:	0.00024938412592827655
+RMSE:	0.015791900643313223
+MAE:	0.008144330592093399
+
+Inner fold #3
+>r2=0.842, best=0.63662, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.9, 'mlpregressor__max_iter': 10000, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (10,), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 'auto', 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+MSE:	3.447012306896454e-05
+RMSE:	0.0058711262181088
+MAE:	0.003795535034770528
+
+Inner fold #4
+>r2=0.856, best=0.73563, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.6, 'mlpregressor__max_iter': 10000, 'mlpregressor__learning_rate_init': 0.1, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (10,), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 128, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+MSE:	3.859245294706186e-05
+RMSE:	0.006212282426537115
+MAE:	0.0036977241030596115
+
+Inner fold #5
+>r2=0.859, best=0.66313, cfg={'mlpregressor__solver': 'sgd', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.7, 'mlpregressor__max_iter': 10000, 'mlpregressor__learning_rate_init': 0.1, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (8,), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 128, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+MSE:	5.19618681645613e-05
+RMSE:	0.007208458098966886
+MAE:	0.0040932360386924755
+Randomized search with Nested K-fold Cross Validation for MLP model completed !
+
+Mean R2: 0.685 (0.347)
+
+[2022-10-18 15:20:33.203559]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.783, best=0.80340, cfg={'n_estimators': 100, 'min_samples_split': 36, 'min_samples_leaf': 10, 'max_features': 'auto', 'max_depth': 6, 'criterion': 'mae', 'bootstrap': False}
+MSE:	9.108442064079651e-05
+RMSE:	0.009543815832296666
+MAE:	0.0035052704705701883
+
+Inner fold #2
+>r2=0.767, best=0.79260, cfg={'n_estimators': 200, 'min_samples_split': 42, 'min_samples_leaf': 14, 'max_features': 'auto', 'max_depth': 5, 'criterion': 'mse', 'bootstrap': False}
+MSE:	5.758875347526186e-05
+RMSE:	0.007588725418359915
+MAE:	0.003017034047995302
+
+Inner fold #3
+>r2=0.893, best=0.83173, cfg={'n_estimators': 200, 'min_samples_split': 36, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': None, 'criterion': 'mse', 'bootstrap': True}
+MSE:	2.3382191344081466e-05
+RMSE:	0.004835513555361153
+MAE:	0.002369658548602707
+
+Inner fold #4
+>r2=0.925, best=0.81431, cfg={'n_estimators': 50, 'min_samples_split': 42, 'min_samples_leaf': 10, 'max_features': 'auto', 'max_depth': None, 'criterion': 'mse', 'bootstrap': False}
+MSE:	2.0168841977283228e-05
+RMSE:	0.004490973388618911
+MAE:	0.001960547506731396
+
+Inner fold #5
+>r2=0.890, best=0.81784, cfg={'n_estimators': 100, 'min_samples_split': 38, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': None, 'criterion': 'mse', 'bootstrap': True}
+MSE:	4.0420589151819265e-05
+RMSE:	0.006357718863855122
+MAE:	0.0022009607072080396
+Randomized search with Nested K-fold Cross Validation for RF model completed !
+
+Mean R2: 0.852 (0.064)
+
+[2022-10-18 17:46:57.769588]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.881, best=0.72789, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.8, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (8, 4), 'mlpregressor__early_stopping': False, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	5.013324752520853e-05
+RMSE:	0.007080483565774906
+MAE:	0.003554855450312651
+
+Inner fold #2
+>r2=0.734, best=0.80124, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': True, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.8, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (10, 8), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	6.573951109277481e-05
+RMSE:	0.008107990570589904
+MAE:	0.003854856881276737
+
+Inner fold #3
+>r2=0.850, best=0.84255, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.9, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (8, 4), 'mlpregressor__early_stopping': False, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	3.274175509528603e-05
+RMSE:	0.005722041165116346
+MAE:	0.0037776441269496397
+
+Inner fold #4
+>r2=0.892, best=0.83913, cfg={'mlpregressor__solver': 'sgd', 'mlpregressor__shuffle': True, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.8, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.001, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (8, 8), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	2.9110699546625055e-05
+RMSE:	0.005395433212136451
+MAE:	0.003337329295932501
+
+Inner fold #5
+>r2=0.786, best=0.81198, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.7, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.001, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (8, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	7.86904340034022e-05
+RMSE:	0.008870762876066645
+MAE:	0.00465923906679845
+Randomized search with Nested K-fold Cross Validation for MLP model completed !
+
+Mean R2: 0.829 (0.060)
+
+[2022-10-18 18:03:50.097471]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.837, best=0.71767, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.7, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.001, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (8, 8), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 'auto', 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	6.848325556930772e-05
+RMSE:	0.008275461048745726
+MAE:	0.0036589181375870725
+
+Inner fold #2
+>r2=0.766, best=0.80580, cfg={'mlpregressor__solver': 'sgd', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.8, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (10, 8), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	5.7930263399982695e-05
+RMSE:	0.007611193296716534
+MAE:	0.0033447745411808094
+
+Inner fold #3
+>r2=0.847, best=0.84244, cfg={'mlpregressor__solver': 'sgd', 'mlpregressor__shuffle': True, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.7, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (10, 8), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	3.347484228726029e-05
+RMSE:	0.005785744747848827
+MAE:	0.0037689845423020374
+
+Inner fold #4
+>r2=0.898, best=0.82612, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.9, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (8, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 'auto', 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	2.7378818654827187e-05
+RMSE:	0.005232477296159744
+MAE:	0.002979400208154537
+
+Inner fold #5
+>r2=0.876, best=0.80826, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.8, 'mlpregressor__max_iter': 5000, 'mlpregressor__learning_rate_init': 0.001, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (4, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	4.566863628203303e-05
+RMSE:	0.006757857373608371
+MAE:	0.003132588843284988
+Randomized search with Nested K-fold Cross Validation for MLP model completed !
+
+Mean R2: 0.845 (0.045)
+
+[2022-10-18 18:29:32.185082]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.978, best=0.84576, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.001, 'svr__C': 100}
+MSE:	9.35462921352224e-06
+RMSE:	0.003058533833967223
+MAE:	0.0017817885007642559
+
+Inner fold #2
+>r2=0.978, best=0.88143, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.1, 'svr__epsilon': 0.0001, 'svr__C': 10}
+MSE:	5.508878595906577e-06
+RMSE:	0.002347100039603463
+MAE:	0.001018611429614978
+
+Inner fold #3
+>r2=0.982, best=0.92190, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'auto', 'svr__epsilon': 0.0001, 'svr__C': 10}
+MSE:	3.9366162613800215e-06
+RMSE:	0.0019840907896011267
+MAE:	0.0008964281892544559
+
+Inner fold #4
+>r2=0.965, best=0.90405, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'auto', 'svr__epsilon': 0.001, 'svr__C': 10}
+MSE:	9.374328969768326e-06
+RMSE:	0.0030617525977401122
+MAE:	0.0015280494687828178
+
+Inner fold #5
+>r2=0.950, best=0.86519, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.0001, 'svr__C': 1}
+MSE:	1.8493713854595848e-05
+RMSE:	0.004300431821875083
+MAE:	0.0018183432716970414
+Randomized search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.970 (0.012)
+
+[2022-11-18 16:10:44.715941]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.935, best=0.82491, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.0001, 'svr__C': 1}
+MSE:	2.739502903902578e-05
+RMSE:	0.005234026083143432
+MAE:	0.0022899830463223142
+
+Inner fold #2
+>r2=0.970, best=0.88554, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'auto', 'svr__epsilon': 0.001, 'svr__C': 1}
+MSE:	7.3462998317459525e-06
+RMSE:	0.0027104058426268844
+MAE:	0.001651028250071659
+
+Inner fold #3
+>r2=0.969, best=0.93070, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.1, 'svr__epsilon': 0.0001, 'svr__C': 1}
+MSE:	6.803522387017021e-06
+RMSE:	0.0026083562615212327
+MAE:	0.0012167281902763576
+
+Inner fold #4
+>r2=0.962, best=0.90633, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.0001, 'svr__C': 10}
+MSE:	1.0277818472532235e-05
+RMSE:	0.0032059036904642404
+MAE:	0.0017022698845287761
+
+Inner fold #5
+>r2=0.936, best=0.84246, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.0001, 'svr__C': 0.1}
+MSE:	2.3509166648557765e-05
+RMSE:	0.00484862523284258
+MAE:	0.0014502845310618295
+Randomized search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.954 (0.016)
+
+[2022-11-18 16:13:50.216641]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.982, best=0.75843, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.001, 'svr__C': 100}
+MSE:	7.67706077385713e-06
+RMSE:	0.002770750940423395
+MAE:	0.00157896104237283
+
+Inner fold #2
+>r2=0.908, best=0.85945, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.001, 'svr__epsilon': 0.0001, 'svr__C': 100}
+MSE:	2.2799936452003567e-05
+RMSE:	0.004774927900189025
+MAE:	0.0021846023453814738
+
+Inner fold #3
+>r2=0.982, best=0.92190, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'auto', 'svr__epsilon': 0.0001, 'svr__C': 10}
+MSE:	3.9366162613800215e-06
+RMSE:	0.0019840907896011267
+MAE:	0.0008964281892544559
+
+Inner fold #4
+>r2=0.964, best=0.92570, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.001, 'svr__C': 1}
+MSE:	9.779934268197357e-06
+RMSE:	0.0031272886448483386
+MAE:	0.0015768446850026507
+
+Inner fold #5
+>r2=0.988, best=0.84464, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.1, 'svr__epsilon': 0.001, 'svr__C': 1}
+MSE:	4.49525400051283e-06
+RMSE:	0.0021202014056482536
+MAE:	0.0012083305017347226
+Randomized search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.965 (0.030)
+
+[2022-11-21 16:36:30.743315]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.980, best=0.79043, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.1, 'svr__epsilon': 0.001, 'svr__C': 1}
+MSE:	8.53224576630246e-06
+RMSE:	0.0029210008158681608
+MAE:	0.0016456665622351183
+
+Inner fold #2
+>r2=0.934, best=0.88834, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.0001, 'svr__C': 1000}
+MSE:	1.6236086174656754e-05
+RMSE:	0.0040294027069352045
+MAE:	0.0018387585314138262
+
+Inner fold #3
+>r2=0.982, best=0.92900, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.001, 'svr__C': 10}
+MSE:	3.926323424408808e-06
+RMSE:	0.0019814952496558774
+MAE:	0.0013824845739260996
+
+Inner fold #4
+>r2=0.962, best=0.90633, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.0001, 'svr__C': 10}
+MSE:	1.0277818472532235e-05
+RMSE:	0.0032059036904642404
+MAE:	0.0017022698845287761
+
+Inner fold #5
+>r2=0.981, best=0.85648, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.001, 'svr__C': 1000}
+MSE:	7.135880679554498e-06
+RMSE:	0.0026713069235028944
+MAE:	0.0013884991306986098
+Randomized search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.968 (0.018)
+
+[2022-11-21 16:45:55.392179]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.980, best=0.75218, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.001, 'svr__C': 1000}
+MSE:	8.602402246179399e-06
+RMSE:	0.0029329852106990584
+MAE:	0.0016477066431432052
+
+Inner fold #2
+>r2=0.976, best=0.89040, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.001, 'svr__C': 10}
+MSE:	5.975133449219693e-06
+RMSE:	0.0024444086092999455
+MAE:	0.0015198797758742405
+
+Inner fold #3
+>r2=0.973, best=0.93506, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'auto', 'svr__epsilon': 0.001, 'svr__C': 1}
+MSE:	5.820512172177813e-06
+RMSE:	0.0024125737651267396
+MAE:	0.0015165215705142915
+
+Inner fold #4
+>r2=0.968, best=0.91929, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.1, 'svr__epsilon': 0.0001, 'svr__C': 1}
+MSE:	8.67839893114973e-06
+RMSE:	0.002945912240911078
+MAE:	0.0011739994738654814
+
+Inner fold #5
+>r2=0.941, best=0.84324, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.1, 'svr__epsilon': 0.001, 'svr__C': 0.1}
+MSE:	2.1654823114039127e-05
+RMSE:	0.004653474305724608
+MAE:	0.0016716326372506372
+Randomized search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.967 (0.014)
+
+[2022-11-21 16:52:35.928548]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.982, best=0.75843, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.001, 'svr__C': 100}
+MSE:	7.67706077385713e-06
+RMSE:	0.002770750940423395
+MAE:	0.00157896104237283
+
+Inner fold #2
+>r2=0.978, best=0.88143, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.0001, 'svr__C': 10}
+MSE:	5.508878595906577e-06
+RMSE:	0.002347100039603463
+MAE:	0.001018611429614978
+
+Inner fold #3
+>r2=0.973, best=0.93506, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'auto', 'svr__epsilon': 0.001, 'svr__C': 1}
+MSE:	5.820512172177813e-06
+RMSE:	0.0024125737651267396
+MAE:	0.0015165215705142915
+
+Inner fold #4
+>r2=0.962, best=0.90633, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.0001, 'svr__C': 10}
+MSE:	1.0277818472532235e-05
+RMSE:	0.0032059036904642404
+MAE:	0.0017022698845287761
+
+Inner fold #5
+>r2=0.933, best=0.83787, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.001, 'svr__epsilon': 0.0001, 'svr__C': 10}
+MSE:	2.4576385204956155e-05
+RMSE:	0.00495745753435732
+MAE:	0.0021612806984981454
+Randomized search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.966 (0.018)
+
+[2022-11-21 16:59:53.088325]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.982, best=0.80016, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.001, 'svr__C': 1000}
+MSE:	7.688668533584452e-06
+RMSE:	0.002772844844845173
+MAE:	0.0015711341580033646
+
+Inner fold #2
+>r2=0.934, best=0.88834, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.0001, 'svr__C': 1000}
+MSE:	1.6236086174656754e-05
+RMSE:	0.0040294027069352045
+MAE:	0.0018387585314138262
+
+Inner fold #3
+>r2=0.969, best=0.93070, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.0001, 'svr__C': 1}
+MSE:	6.803522387017021e-06
+RMSE:	0.0026083562615212327
+MAE:	0.0012167281902763576
+
+Inner fold #4
+>r2=0.968, best=0.91929, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.1, 'svr__epsilon': 0.0001, 'svr__C': 1}
+MSE:	8.67839893114973e-06
+RMSE:	0.002945912240911078
+MAE:	0.0011739994738654814
+
+Inner fold #5
+>r2=0.951, best=0.86866, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.001, 'svr__C': 1}
+MSE:	1.8121899208196515e-05
+RMSE:	0.004256982406376201
+MAE:	0.0019291387605670552
+Randomized search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.961 (0.016)
+
+[2022-11-21 17:08:07.142742]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.919, best=0.81072, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.0001, 'svr__C': 0.1}
+MSE:	3.412392113007707e-05
+RMSE:	0.005841568379303376
+MAE:	0.0026014546844884126
+
+Inner fold #2
+>r2=0.971, best=0.87465, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.1, 'svr__epsilon': 0.001, 'svr__C': 100}
+MSE:	7.141803098751539e-06
+RMSE:	0.002672415218253245
+MAE:	0.0016494806736410384
+
+Inner fold #3
+>r2=0.973, best=0.93506, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.001, 'svr__C': 1}
+MSE:	5.820512172177813e-06
+RMSE:	0.0024125737651267396
+MAE:	0.0015165215705142915
+
+Inner fold #4
+>r2=0.959, best=0.90329, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.001, 'svr__C': 1000}
+MSE:	1.1056674705062532e-05
+RMSE:	0.003325157846638642
+MAE:	0.0017699242907632134
+
+Inner fold #5
+>r2=0.987, best=0.84123, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.0001, 'svr__C': 1}
+MSE:	4.703469949281201e-06
+RMSE:	0.0021687484753380695
+MAE:	0.0008125641511412355
+Randomized search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.962 (0.023)
+
+[2022-11-21 17:29:02.407397]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.916, best=0.80837, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.001, 'svr__epsilon': 0.0001, 'svr__C': 100}
+MSE:	3.53967374044912e-05
+RMSE:	0.005949515728569108
+MAE:	0.002419822864859583
+
+Inner fold #2
+>r2=0.974, best=0.88779, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.001, 'svr__C': 5}
+MSE:	6.3479555602921575e-06
+RMSE:	0.0025195149454393315
+MAE:	0.0015375367896742292
+
+Inner fold #3
+>r2=0.868, best=0.92023, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.001, 'svr__C': 1}
+MSE:	2.8797879479995902e-05
+RMSE:	0.00536636557457614
+MAE:	0.0026392998254375216
+
+Inner fold #4
+>r2=0.971, best=0.93054, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.0001, 'svr__C': 0.5}
+MSE:	7.79274564775639e-06
+RMSE:	0.0027915489692563857
+MAE:	0.001173664407130102
+
+Inner fold #5
+>r2=0.961, best=0.86175, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 1e-05, 'svr__C': 5}
+MSE:	1.442677522905947e-05
+RMSE:	0.0037982594999630384
+MAE:	0.0016033763445325747
+Randomized search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.938 (0.041)
+
+[2022-11-21 17:50:51.238500]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.936, best=0.81404, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.001, 'svr__coef0': 0.01, 'svr__C': 1}
+MSE:	2.6749452914419687e-05
+RMSE:	0.005171987327364568
+MAE:	0.0023867922942027455
+
+Inner fold #2
+>r2=0.975, best=0.89158, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.0005, 'svr__coef0': 0.01, 'svr__C': 5}
+MSE:	6.276937404042578e-06
+RMSE:	0.0025053816882947355
+MAE:	0.0012673190710666836
+
+Inner fold #3
+>r2=0.979, best=0.93198, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.0005, 'svr__coef0': 0.01, 'svr__C': 2}
+MSE:	4.526985308353178e-06
+RMSE:	0.002127671334664538
+MAE:	0.0011605256506175715
+
+Inner fold #4
+>r2=0.972, best=0.90965, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 5e-05, 'svr__coef0': 10, 'svr__C': 5}
+MSE:	7.51181795051464e-06
+RMSE:	0.002740769590920521
+MAE:	0.0010104513515711054
+
+Inner fold #5
+>r2=0.941, best=0.84739, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.005, 'svr__coef0': 0.5, 'svr__C': 0.5}
+MSE:	2.1800672646116647e-05
+RMSE:	0.00466911904390075
+MAE:	0.003088390353469939
+Randomized search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.961 (0.018)
+
+[2022-11-24 15:36:28.797582]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.943, best=0.81212, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 0.0001, 'svr__coef0': 0.1, 'svr__C': 2}
+MSE:	2.3895006050651395e-05
+RMSE:	0.004888251839937402
+MAE:	0.002178506590638726
+
+Inner fold #2
+>r2=0.976, best=0.89040, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.1, 'svr__epsilon': 0.001, 'svr__coef0': 0.0001, 'svr__C': 10}
+MSE:	5.975133449219693e-06
+RMSE:	0.0024444086092999455
+MAE:	0.0015198797758742405
+
+Inner fold #3
+>r2=0.964, best=0.93398, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.1, 'svr__epsilon': 0.001, 'svr__coef0': 3, 'svr__C': 0.5}
+MSE:	7.801576998921809e-06
+RMSE:	0.002793130322581066
+MAE:	0.00171918229806032
+
+Inner fold #4
+>r2=0.968, best=0.91852, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 1e-05, 'svr__coef0': 0.0001, 'svr__C': 1}
+MSE:	8.52641641337623e-06
+RMSE:	0.0029200028105082756
+MAE:	0.0011487436036633593
+
+Inner fold #5
+>r2=0.966, best=0.87699, cfg={'svr__kernel': 'rbf', 'svr__gamma': 0.01, 'svr__epsilon': 1e-05, 'svr__coef0': 0, 'svr__C': 10}
+MSE:	1.2511981267598827e-05
+RMSE:	0.0035372279072175754
+MAE:	0.0015246852642438087
+Randomized search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.963 (0.011)
+
+[2022-11-24 15:50:03.602028]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.929, best=0.83337, cfg={'svr__C': 0.5, 'svr__epsilon': 5e-05, 'svr__gamma': 0.01, 'svr__kernel': 'rbf'}
+MSE:	2.9886455865109795e-05
+RMSE:	0.005466850634973467
+MAE:	0.002389709834457067
+
+Inner fold #2
+>r2=0.978, best=0.89671, cfg={'svr__C': 12, 'svr__epsilon': 0.0005, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	5.4864835508823124e-06
+RMSE:	0.002342324390617643
+MAE:	0.001185677952961934
+
+Inner fold #3
+>r2=0.973, best=0.93506, cfg={'svr__C': 1, 'svr__epsilon': 0.001, 'svr__gamma': 'scale', 'svr__kernel': 'rbf'}
+MSE:	5.820512172177813e-06
+RMSE:	0.0024125737651267396
+MAE:	0.0015165215705142915
+
+Inner fold #4
+>r2=0.971, best=0.93054, cfg={'svr__C': 0.5, 'svr__epsilon': 0.0001, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	7.79274564775597e-06
+RMSE:	0.0027915489692563107
+MAE:	0.0011736644071300816
+
+Inner fold #5
+>r2=0.970, best=0.88985, cfg={'svr__C': 15, 'svr__epsilon': 0.001, 'svr__gamma': 0.01, 'svr__kernel': 'rbf'}
+MSE:	1.0987455316153438e-05
+RMSE:	0.0033147330686125295
+MAE:	0.0016376831467560802
+Grid search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.964 (0.018)
+
+[2022-11-24 16:09:36.125741]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.929, best=0.83337, cfg={'svr__C': 0.5, 'svr__epsilon': 5e-05, 'svr__gamma': 0.01, 'svr__kernel': 'rbf'}
+MSE:	2.9886455865109795e-05
+RMSE:	0.005466850634973467
+MAE:	0.002389709834457067
+
+Inner fold #2
+>r2=0.978, best=0.89655, cfg={'svr__C': 15, 'svr__epsilon': 0.0005, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	5.4329334241360574e-06
+RMSE:	0.0023308653809553347
+MAE:	0.0011849506104510189
+
+Inner fold #3
+>r2=0.973, best=0.93506, cfg={'svr__C': 1, 'svr__epsilon': 0.001, 'svr__gamma': 'scale', 'svr__kernel': 'rbf'}
+MSE:	5.820512172177813e-06
+RMSE:	0.0024125737651267396
+MAE:	0.0015165215705142915
+
+Inner fold #4
+>r2=0.971, best=0.93054, cfg={'svr__C': 0.5, 'svr__epsilon': 0.0001, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	7.79274564775597e-06
+RMSE:	0.0027915489692563107
+MAE:	0.0011736644071300816
+
+Inner fold #5
+>r2=0.970, best=0.88985, cfg={'svr__C': 15, 'svr__epsilon': 0.001, 'svr__gamma': 0.01, 'svr__kernel': 'rbf'}
+MSE:	1.0987455316153438e-05
+RMSE:	0.0033147330686125295
+MAE:	0.0016376831467560802
+Grid search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.964 (0.018)
+
+[2022-11-24 16:34:31.834962]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.929, best=0.83337, cfg={'svr__C': 0.5, 'svr__epsilon': 5e-05, 'svr__gamma': 0.01, 'svr__kernel': 'rbf'}
+MSE:	2.9886455865109795e-05
+RMSE:	0.005466850634973467
+MAE:	0.002389709834457067
+
+Inner fold #2
+>r2=0.978, best=0.89655, cfg={'svr__C': 15, 'svr__epsilon': 0.0005, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	5.4329334241360574e-06
+RMSE:	0.0023308653809553347
+MAE:	0.0011849506104510189
+
+Inner fold #3
+>r2=0.973, best=0.93506, cfg={'svr__C': 1, 'svr__epsilon': 0.001, 'svr__gamma': 'scale', 'svr__kernel': 'rbf'}
+MSE:	5.820512172177813e-06
+RMSE:	0.0024125737651267396
+MAE:	0.0015165215705142915
+
+Inner fold #4
+>r2=0.971, best=0.93054, cfg={'svr__C': 0.5, 'svr__epsilon': 0.0001, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	7.79274564775597e-06
+RMSE:	0.0027915489692563107
+MAE:	0.0011736644071300816
+
+Inner fold #5
+>r2=0.970, best=0.88985, cfg={'svr__C': 15, 'svr__epsilon': 0.001, 'svr__gamma': 0.01, 'svr__kernel': 'rbf'}
+MSE:	1.0987455316153438e-05
+RMSE:	0.0033147330686125295
+MAE:	0.0016376831467560802
+Grid search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.964 (0.018)
+
+[2022-11-24 17:27:44.648917]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.888, best=0.69429, cfg={'subsample': 1, 'objective': 'reg:logistic', 'n_estimators': 350, 'max_depth': 8, 'learning_rate': 0.1, 'lambda': 0, 'gamma': 0.1, 'alpha': 1}
+MSE:	4.7033620892130565e-05
+RMSE:	0.006858106217617992
+MAE:	0.004078313968974015
+
+Inner fold #2
+>r2=0.860, best=0.73786, cfg={'subsample': 1, 'objective': 'reg:logistic', 'n_estimators': 350, 'max_depth': 2, 'learning_rate': 0.3, 'lambda': 5, 'gamma': 0, 'alpha': 1}
+MSE:	3.4603381563591237e-05
+RMSE:	0.005882463902446936
+MAE:	0.0036157582149490834
+
+Inner fold #3
+>r2=0.929, best=0.90680, cfg={'subsample': 1, 'objective': 'reg:squaredlogerror', 'n_estimators': 20, 'max_depth': 2, 'learning_rate': 0.3, 'lambda': 20, 'gamma': 0, 'alpha': 0}
+MSE:	1.5550934813848853e-05
+RMSE:	0.003943467359298014
+MAE:	0.0023271633819040276
+
+Inner fold #4
+>r2=0.908, best=0.78912, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 350, 'max_depth': 8, 'learning_rate': 0.05, 'lambda': 1, 'gamma': 0, 'alpha': 1}
+MSE:	2.4612179437327916e-05
+RMSE:	0.004961066360907493
+MAE:	0.004131437313021985
+
+Inner fold #5
+>r2=0.998, best=0.94553, cfg={'subsample': 0.5, 'objective': 'reg:squaredlogerror', 'n_estimators': 350, 'max_depth': 6, 'learning_rate': 0.1, 'lambda': 0, 'gamma': 0, 'alpha': 0}
+MSE:	7.105327073573407e-07
+RMSE:	0.0008429310217077912
+MAE:	0.000577907998114303
+Randomized search with Nested K-fold Cross Validation for XGB model completed !
+
+Mean R2: 0.917 (0.047)
+
+[2022-11-25 13:33:59.176571]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.992, best=0.91829, cfg={'subsample': 1, 'objective': 'reg:squaredlogerror', 'n_estimators': 500, 'max_depth': 8, 'learning_rate': 0.03, 'lambda': 5}
+MSE:	3.4243965700877033e-06
+RMSE:	0.0018505125155177154
+MAE:	0.0009926688372008721
+
+Inner fold #2
+>r2=0.976, best=0.92414, cfg={'subsample': 1, 'objective': 'reg:squaredlogerror', 'n_estimators': 100, 'max_depth': 6, 'learning_rate': 0.1, 'lambda': 5}
+MSE:	5.9982910719769036e-06
+RMSE:	0.0024491408844688587
+MAE:	0.0012850171517152032
+
+Inner fold #3
+>r2=0.978, best=0.96343, cfg={'subsample': 1, 'objective': 'reg:squaredlogerror', 'n_estimators': 500, 'max_depth': 6, 'learning_rate': 0.05, 'lambda': 0}
+MSE:	4.756690549975616e-06
+RMSE:	0.002180983849086374
+MAE:	0.0011092370379928132
+
+Inner fold #4
+>r2=0.985, best=0.96501, cfg={'subsample': 1, 'objective': 'reg:squarederror', 'n_estimators': 350, 'max_depth': 6, 'learning_rate': 0.05, 'lambda': 5}
+MSE:	4.107139132130842e-06
+RMSE:	0.0020266077894182787
+MAE:	0.000962752334968525
+
+Inner fold #5
+>r2=0.996, best=0.95366, cfg={'subsample': 1, 'objective': 'reg:squarederror', 'n_estimators': 500, 'max_depth': 6, 'learning_rate': 0.05, 'lambda': 1}
+MSE:	1.3039770043860733e-06
+RMSE:	0.0011419181250799347
+MAE:	0.0006841245804074019
+Randomized search with Nested K-fold Cross Validation for XGB model completed !
+
+Mean R2: 0.985 (0.008)
+
+[2022-11-25 13:44:35.839169]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.997, best=0.93578, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 750, 'learning_rate': 0.08, 'lambda': 3}
+MSE:	1.222445606498889e-06
+RMSE:	0.0011056426215097215
+MAE:	0.0006620774715555288
+
+Inner fold #2
+>r2=0.982, best=0.93453, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 750, 'learning_rate': 0.08, 'lambda': 5}
+MSE:	4.392348962266024e-06
+RMSE:	0.002095793158273503
+MAE:	0.0009483650967939775
+
+Inner fold #3
+>r2=0.981, best=0.97912, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 500, 'learning_rate': 0.05, 'lambda': 3}
+MSE:	4.0870199277589745e-06
+RMSE:	0.00202163793191535
+MAE:	0.0009813965094876858
+
+Inner fold #4
+>r2=0.991, best=0.97133, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 750, 'learning_rate': 0.05, 'lambda': 0}
+MSE:	2.3426315932115647e-06
+RMSE:	0.0015305657755260193
+MAE:	0.0007088882806622764
+
+Inner fold #5
+>r2=0.999, best=0.95985, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 750, 'learning_rate': 0.05, 'lambda': 0}
+MSE:	4.883050363435543e-07
+RMSE:	0.0006987882628833675
+MAE:	0.00048268207542991146
+Randomized search with Nested K-fold Cross Validation for XGB model completed !
+
+Mean R2: 0.990 (0.007)
+
+[2022-11-25 13:53:12.985892]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.783, best=0.80346, cfg={'n_estimators': 200, 'min_samples_split': 36, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 6, 'criterion': 'mae', 'bootstrap': False}
+MSE:	9.103666718273636e-05
+RMSE:	0.009541313703192887
+MAE:	0.00348374647455835
+
+Inner fold #2
+>r2=0.773, best=0.78941, cfg={'n_estimators': 50, 'min_samples_split': 34, 'min_samples_leaf': 14, 'max_features': 'auto', 'max_depth': 6, 'criterion': 'mae', 'bootstrap': False}
+MSE:	5.623001832756613e-05
+RMSE:	0.00749866777018199
+MAE:	0.0027327564880011536
+
+Inner fold #3
+>r2=0.866, best=0.82131, cfg={'n_estimators': 150, 'min_samples_split': 38, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 5, 'criterion': 'mae', 'bootstrap': False}
+MSE:	2.9370653070524967e-05
+RMSE:	0.005419469814522908
+MAE:	0.0026375703768885426
+
+Inner fold #4
+>r2=0.927, best=0.81523, cfg={'n_estimators': 50, 'min_samples_split': 38, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 5, 'criterion': 'mse', 'bootstrap': True}
+MSE:	1.9491106145926704e-05
+RMSE:	0.004414873287641074
+MAE:	0.001976852398653061
+
+Inner fold #5
+>r2=0.875, best=0.80766, cfg={'n_estimators': 150, 'min_samples_split': 40, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 7, 'criterion': 'mse', 'bootstrap': True}
+MSE:	4.5932106402507424e-05
+RMSE:	0.0067773229525017785
+MAE:	0.0023126393116885548
+Randomized search with Nested K-fold Cross Validation for RF model completed !
+
+Mean R2: 0.845 (0.059)
+
+[2022-11-25 14:19:44.885924]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.997, best=0.93578, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 750, 'learning_rate': 0.08, 'lambda': 3}
+MSE:	1.222445606498889e-06
+RMSE:	0.0011056426215097215
+MAE:	0.0006620774715555288
+
+Inner fold #2
+>r2=0.982, best=0.93453, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 750, 'learning_rate': 0.08, 'lambda': 5}
+MSE:	4.392348962266024e-06
+RMSE:	0.002095793158273503
+MAE:	0.0009483650967939775
+
+Inner fold #3
+>r2=0.982, best=0.97961, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 750, 'learning_rate': 0.05, 'lambda': 3}
+MSE:	3.999870303051352e-06
+RMSE:	0.001999967575500001
+MAE:	0.0009499162328132647
+
+Inner fold #4
+>r2=0.985, best=0.96513, cfg={'subsample': 1, 'objective': 'reg:squarederror', 'n_estimators': 750, 'learning_rate': 0.05, 'lambda': 5}
+MSE:	4.107072942941476e-06
+RMSE:	0.002026591459308332
+MAE:	0.000962715471802373
+
+Inner fold #5
+>r2=0.999, best=0.95891, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 350, 'learning_rate': 0.08, 'lambda': 0}
+MSE:	4.1762458567896664e-07
+RMSE:	0.0006462387992677062
+MAE:	0.0004910724962004372
+Randomized search with Nested K-fold Cross Validation for XGB model completed !
+
+Mean R2: 0.989 (0.007)
+
+[2022-11-25 14:21:37.959446]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.783, best=0.80340, cfg={'n_estimators': 200, 'min_samples_split': 38, 'min_samples_leaf': 10, 'max_features': 'auto', 'max_depth': 6, 'criterion': 'mae', 'bootstrap': False}
+MSE:	9.108442064079598e-05
+RMSE:	0.009543815832296638
+MAE:	0.003505270470570182
+
+Inner fold #2
+>r2=0.779, best=0.80587, cfg={'n_estimators': 50, 'min_samples_split': 38, 'min_samples_leaf': 12, 'max_features': 'auto', 'max_depth': 10, 'criterion': 'mse', 'bootstrap': False}
+MSE:	5.470405428189006e-05
+RMSE:	0.007396218917926244
+MAE:	0.0027409670360881108
+
+Inner fold #3
+>r2=0.880, best=0.82952, cfg={'n_estimators': 100, 'min_samples_split': 38, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': None, 'criterion': 'mse', 'bootstrap': False}
+MSE:	2.6238382886862456e-05
+RMSE:	0.005122341543363001
+MAE:	0.002570021801076168
+
+Inner fold #4
+>r2=0.928, best=0.81510, cfg={'n_estimators': 50, 'min_samples_split': 40, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 8, 'criterion': 'mse', 'bootstrap': False}
+MSE:	1.9427564730047887e-05
+RMSE:	0.004407671123172405
+MAE:	0.001879380897878026
+
+Inner fold #5
+>r2=0.873, best=0.81025, cfg={'n_estimators': 150, 'min_samples_split': 36, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 7, 'criterion': 'mse', 'bootstrap': True}
+MSE:	4.675748038695857e-05
+RMSE:	0.006837944163778947
+MAE:	0.002311953071242468
+Randomized search with Nested K-fold Cross Validation for RF model completed !
+
+Mean R2: 0.848 (0.058)
+
+[2022-11-25 14:27:16.744342]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.993, best=0.92134, cfg={'subsample': 1, 'objective': 'reg:squarederror', 'n_estimators': 350, 'learning_rate': 0.08, 'lambda': 3}
+MSE:	3.0089866031136885e-06
+RMSE:	0.0017346430765761839
+MAE:	0.000968512904152558
+
+Inner fold #2
+>r2=0.983, best=0.94071, cfg={'subsample': 1, 'objective': 'reg:squaredlogerror', 'n_estimators': 350, 'learning_rate': 0.08, 'lambda': 5}
+MSE:	4.328075774249714e-06
+RMSE:	0.0020804027913482797
+MAE:	0.0010737271147795273
+
+Inner fold #3
+>r2=0.982, best=0.97796, cfg={'subsample': 0.5, 'objective': 'reg:squaredlogerror', 'n_estimators': 750, 'learning_rate': 0.05, 'lambda': 5}
+MSE:	3.896023045910025e-06
+RMSE:	0.00197383460449705
+MAE:	0.0009188381711029154
+
+Inner fold #4
+>r2=0.991, best=0.97092, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 350, 'learning_rate': 0.05, 'lambda': 0}
+MSE:	2.385126008912442e-06
+RMSE:	0.0015443853175009278
+MAE:	0.0007300286007015616
+
+Inner fold #5
+>r2=0.999, best=0.95985, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 750, 'learning_rate': 0.05, 'lambda': 0}
+MSE:	4.883050363435543e-07
+RMSE:	0.0006987882628833675
+MAE:	0.00048268207542991146
+Randomized search with Nested K-fold Cross Validation for XGB model completed !
+
+Mean R2: 0.989 (0.006)
+
+[2022-11-25 14:29:02.998878]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.783, best=0.80565, cfg={'n_estimators': 200, 'min_samples_split': 40, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': None, 'criterion': 'mae', 'bootstrap': False}
+MSE:	9.097798219083851e-05
+RMSE:	0.009538237897580376
+MAE:	0.003478567500733232
+
+Inner fold #2
+>r2=0.802, best=0.80034, cfg={'n_estimators': 200, 'min_samples_split': 32, 'min_samples_leaf': 6, 'max_features': 'auto', 'max_depth': 8, 'criterion': 'mse', 'bootstrap': True}
+MSE:	4.909612498689079e-05
+RMSE:	0.007006862706439365
+MAE:	0.0024250351236293254
+
+Inner fold #3
+>r2=0.874, best=0.82520, cfg={'n_estimators': 100, 'min_samples_split': 44, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 10, 'criterion': 'mae', 'bootstrap': False}
+MSE:	2.757793177546128e-05
+RMSE:	0.0052514694872446204
+MAE:	0.0024361347106755683
+
+Inner fold #4
+>r2=0.926, best=0.81963, cfg={'n_estimators': 200, 'min_samples_split': 32, 'min_samples_leaf': 8, 'max_features': 'auto', 'max_depth': 8, 'criterion': 'mse', 'bootstrap': False}
+MSE:	1.9939955743420163e-05
+RMSE:	0.0044654177568756274
+MAE:	0.0018905451433347993
+
+Inner fold #5
+>r2=0.904, best=0.79526, cfg={'n_estimators': 150, 'min_samples_split': 32, 'min_samples_leaf': 10, 'max_features': 'auto', 'max_depth': None, 'criterion': 'mse', 'bootstrap': False}
+MSE:	3.538203194598591e-05
+RMSE:	0.0059482797467827545
+MAE:	0.0021199561001993927
+Randomized search with Nested K-fold Cross Validation for RF model completed !
+
+Mean R2: 0.858 (0.056)
+
+[2022-11-25 14:44:13.669511]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.997, best=0.93600, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 500, 'learning_rate': 0.08, 'lambda': 3}
+MSE:	1.2937024856377898e-06
+RMSE:	0.0011374104297208593
+MAE:	0.0006862618562551591
+
+Inner fold #2
+>r2=0.981, best=0.93317, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 350, 'learning_rate': 0.08, 'lambda': 5}
+MSE:	4.69032543137716e-06
+RMSE:	0.0021657159165913613
+MAE:	0.001003621946534007
+
+Inner fold #3
+>r2=0.982, best=0.97961, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 750, 'learning_rate': 0.05, 'lambda': 3}
+MSE:	3.999870303051352e-06
+RMSE:	0.001999967575500001
+MAE:	0.0009499162328132647
+
+Inner fold #4
+>r2=0.990, best=0.96942, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 500, 'learning_rate': 0.08, 'lambda': 0}
+MSE:	2.5666304647545845e-06
+RMSE:	0.0016020706803242435
+MAE:	0.0007498701448182113
+
+Inner fold #5
+>r2=0.999, best=0.95985, cfg={'subsample': 0.5, 'objective': 'reg:squarederror', 'n_estimators': 750, 'learning_rate': 0.05, 'lambda': 0}
+MSE:	4.883050363435543e-07
+RMSE:	0.0006987882628833675
+MAE:	0.00048268207542991146
+Randomized search with Nested K-fold Cross Validation for XGB model completed !
+
+Mean R2: 0.990 (0.007)
+
+[2022-11-25 14:46:06.576066]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.783, best=0.80677, cfg={'n_estimators': 300, 'min_samples_split': 42, 'min_samples_leaf': 4, 'max_depth': 18, 'criterion': 'mae', 'bootstrap': False}
+MSE:	9.132059687432676e-05
+RMSE:	0.009556181082123066
+MAE:	0.0035214667893954774
+
+Inner fold #2
+>r2=0.780, best=0.80904, cfg={'n_estimators': 300, 'min_samples_split': 28, 'min_samples_leaf': 12, 'max_depth': 18, 'criterion': 'mse', 'bootstrap': False}
+MSE:	5.4520801569508725e-05
+RMSE:	0.007383820255769281
+MAE:	0.0027072520301322798
+
+Inner fold #3
+>r2=0.896, best=0.84084, cfg={'n_estimators': 450, 'min_samples_split': 32, 'min_samples_leaf': 4, 'max_depth': 18, 'criterion': 'mse', 'bootstrap': True}
+MSE:	2.2797049299718786e-05
+RMSE:	0.004774625566441706
+MAE:	0.002317200143600884
+
+Inner fold #4
+>r2=0.931, best=0.82549, cfg={'n_estimators': 200, 'min_samples_split': 50, 'min_samples_leaf': 4, 'max_depth': None, 'criterion': 'mse', 'bootstrap': True}
+MSE:	1.864158226190319e-05
+RMSE:	0.0043175898672642805
+MAE:	0.001889896185034293
+
+Inner fold #5
+>r2=0.904, best=0.83014, cfg={'n_estimators': 450, 'min_samples_split': 28, 'min_samples_leaf': 4, 'max_depth': 10, 'criterion': 'mse', 'bootstrap': True}
+MSE:	3.538197831939371e-05
+RMSE:	0.005948275239041458
+MAE:	0.0019973059940589
+Randomized search with Nested K-fold Cross Validation for RF model completed !
+
+Mean R2: 0.858 (0.064)
+
+[2022-11-25 15:15:24.192424]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.815, best=0.79681, cfg={'n_estimators': 200, 'min_samples_split': 24, 'min_samples_leaf': 2, 'max_depth': None}
+MSE:	7.75744245996661e-05
+RMSE:	0.008807634449707032
+MAE:	0.0029683743221489674
+
+Inner fold #2
+>r2=0.799, best=0.80500, cfg={'n_estimators': 300, 'min_samples_split': 24, 'min_samples_leaf': 8, 'max_depth': None}
+MSE:	4.9701867202437556e-05
+RMSE:	0.007049955120597404
+MAE:	0.0024090353302368933
+
+Inner fold #3
+>r2=0.901, best=0.84517, cfg={'n_estimators': 500, 'min_samples_split': 36, 'min_samples_leaf': 4, 'max_depth': 22}
+MSE:	2.1740684254492665e-05
+RMSE:	0.004662690666824539
+MAE:	0.002367942531276641
+
+Inner fold #4
+>r2=0.929, best=0.83832, cfg={'n_estimators': 200, 'min_samples_split': 38, 'min_samples_leaf': 2, 'max_depth': 22}
+MSE:	1.9005437470088538e-05
+RMSE:	0.004359522619517937
+MAE:	0.001803492088950386
+
+Inner fold #5
+>r2=0.903, best=0.84299, cfg={'n_estimators': 700, 'min_samples_split': 24, 'min_samples_leaf': 2, 'max_depth': 12}
+MSE:	3.568143038258613e-05
+RMSE:	0.005973393539905615
+MAE:	0.0019136888551532245
+Randomized search with Nested K-fold Cross Validation for RF model completed !
+
+Mean R2: 0.869 (0.052)
+
+[2022-11-25 18:08:33.113251]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.804, best=0.79535, cfg={'n_estimators': 1000, 'min_samples_split': 28, 'min_samples_leaf': 2, 'max_depth': 22}
+MSE:	8.235436991619245e-05
+RMSE:	0.009074930849113531
+MAE:	0.003151202554291933
+
+Inner fold #2
+>r2=0.804, best=0.80162, cfg={'n_estimators': 500, 'min_samples_split': 28, 'min_samples_leaf': 8, 'max_depth': None}
+MSE:	4.8466325750362977e-05
+RMSE:	0.006961776048564258
+MAE:	0.0024239502288117684
+
+Inner fold #3
+>r2=0.902, best=0.84831, cfg={'n_estimators': 500, 'min_samples_split': 36, 'min_samples_leaf': 2, 'max_depth': 10}
+MSE:	2.1350521525035872e-05
+RMSE:	0.0046206624552152555
+MAE:	0.0023343343050382134
+
+Inner fold #4
+>r2=0.934, best=0.83278, cfg={'n_estimators': 850, 'min_samples_split': 32, 'min_samples_leaf': 2, 'max_depth': 22}
+MSE:	1.7660363211441348e-05
+RMSE:	0.004202423492633905
+MAE:	0.0017638019203623215
+
+Inner fold #5
+>r2=0.904, best=0.83709, cfg={'n_estimators': 500, 'min_samples_split': 28, 'min_samples_leaf': 2, 'max_depth': 8}
+MSE:	3.514521518104114e-05
+RMSE:	0.005928340002145722
+MAE:	0.002002764120104674
+Randomized search with Nested K-fold Cross Validation for RF model completed !
+
+Mean R2: 0.870 (0.055)
+
+[2022-11-25 18:25:01.049976]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.804, best=0.80043, cfg={'min_samples_leaf': 2, 'min_samples_split': 20, 'n_estimators': 400}
+MSE:	8.220802921308847e-05
+RMSE:	0.009066864353958787
+MAE:	0.003030956353116077
+
+Inner fold #2
+>r2=0.803, best=0.81580, cfg={'min_samples_leaf': 6, 'min_samples_split': 20, 'n_estimators': 200}
+MSE:	4.872675288869729e-05
+RMSE:	0.006980455063152924
+MAE:	0.002303333551288318
+
+Inner fold #3
+>r2=0.900, best=0.85376, cfg={'min_samples_leaf': 2, 'min_samples_split': 20, 'n_estimators': 200}
+MSE:	2.1820405881277445e-05
+RMSE:	0.004671231730633521
+MAE:	0.0021614894351470724
+
+Inner fold #4
+>r2=0.942, best=0.84418, cfg={'min_samples_leaf': 2, 'min_samples_split': 20, 'n_estimators': 600}
+MSE:	1.5524408107164886e-05
+RMSE:	0.0039401025503360805
+MAE:	0.0016076948227505838
+
+Inner fold #5
+>r2=0.910, best=0.84747, cfg={'min_samples_leaf': 2, 'min_samples_split': 20, 'n_estimators': 800}
+MSE:	3.314999703842842e-05
+RMSE:	0.005757603411006043
+MAE:	0.0018132363826410143
+Grid search with Nested K-fold Cross Validation for RF model completed !
+
+Mean R2: 0.872 (0.057)
+
+[2022-11-25 19:56:02.056126]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.997, best=0.93600, cfg={'lambda': 3, 'learning_rate': 0.08, 'n_estimators': 500, 'objective': 'reg:squarederror', 'subsample': 0.5}
+MSE:	1.2937024856377898e-06
+RMSE:	0.0011374104297208593
+MAE:	0.0006862618562551591
+
+Inner fold #2
+>r2=0.983, best=0.94071, cfg={'lambda': 5, 'learning_rate': 0.08, 'n_estimators': 350, 'objective': 'reg:squaredlogerror', 'subsample': 1}
+MSE:	4.328075774249714e-06
+RMSE:	0.0020804027913482797
+MAE:	0.0010737271147795273
+
+Inner fold #3
+>r2=0.982, best=0.97961, cfg={'lambda': 3, 'learning_rate': 0.05, 'n_estimators': 750, 'objective': 'reg:squarederror', 'subsample': 0.5}
+MSE:	3.999870303051352e-06
+RMSE:	0.001999967575500001
+MAE:	0.0009499162328132647
+
+Inner fold #4
+>r2=0.991, best=0.97133, cfg={'lambda': 0, 'learning_rate': 0.05, 'n_estimators': 750, 'objective': 'reg:squarederror', 'subsample': 0.5}
+MSE:	2.3426315932115647e-06
+RMSE:	0.0015305657755260193
+MAE:	0.0007088882806622764
+
+Inner fold #5
+>r2=0.999, best=0.95985, cfg={'lambda': 0, 'learning_rate': 0.05, 'n_estimators': 750, 'objective': 'reg:squarederror', 'subsample': 0.5}
+MSE:	4.883050363435543e-07
+RMSE:	0.0006987882628833675
+MAE:	0.00048268207542991146
+Grid search with Nested K-fold Cross Validation for XGB model completed !
+
+Mean R2: 0.990 (0.007)
+
+[2022-11-25 20:01:53.653505]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.929, best=0.83337, cfg={'svr__C': 0.5, 'svr__epsilon': 5e-05, 'svr__gamma': 0.01, 'svr__kernel': 'rbf'}
+MSE:	2.9886455865109795e-05
+RMSE:	0.005466850634973467
+MAE:	0.002389709834457067
+
+Inner fold #2
+>r2=0.978, best=0.89655, cfg={'svr__C': 15, 'svr__epsilon': 0.0005, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	5.4329334241360574e-06
+RMSE:	0.0023308653809553347
+MAE:	0.0011849506104510189
+
+Inner fold #3
+>r2=0.973, best=0.93506, cfg={'svr__C': 1, 'svr__epsilon': 0.001, 'svr__gamma': 'scale', 'svr__kernel': 'rbf'}
+MSE:	5.820512172177813e-06
+RMSE:	0.0024125737651267396
+MAE:	0.0015165215705142915
+
+Inner fold #4
+>r2=0.971, best=0.93054, cfg={'svr__C': 0.5, 'svr__epsilon': 0.0001, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	7.79274564775597e-06
+RMSE:	0.0027915489692563107
+MAE:	0.0011736644071300816
+
+Inner fold #5
+>r2=0.970, best=0.88985, cfg={'svr__C': 15, 'svr__epsilon': 0.001, 'svr__gamma': 0.01, 'svr__kernel': 'rbf'}
+MSE:	1.0987455316153438e-05
+RMSE:	0.0033147330686125295
+MAE:	0.0016376831467560802
+Grid search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.964 (0.018)
+
+[2022-11-25 20:25:21.090802]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.938, best=0.79612, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.001, 'svr__C': 0.1}
+MSE:	2.5878741160301143e-05
+RMSE:	0.005087115210047945
+MAE:	0.002171147419405755
+
+Inner fold #2
+>r2=0.977, best=0.89545, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.0005, 'svr__C': 10}
+MSE:	5.693336189968949e-06
+RMSE:	0.0023860712876963563
+MAE:	0.001209366754399601
+
+Inner fold #3
+>r2=0.957, best=0.93515, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'scale', 'svr__epsilon': 0.001, 'svr__C': 0.3}
+MSE:	9.494536835932122e-06
+RMSE:	0.0030813206317960684
+MAE:	0.0017527324800251582
+
+Inner fold #4
+>r2=0.972, best=0.93192, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'auto', 'svr__epsilon': 5e-05, 'svr__C': 0.3}
+MSE:	7.506455277257409e-06
+RMSE:	0.002739791101025297
+MAE:	0.001239353765512398
+
+Inner fold #5
+>r2=0.983, best=0.85612, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'auto', 'svr__epsilon': 0.001, 'svr__C': 0.3}
+MSE:	6.305721741396179e-06
+RMSE:	0.0025111196190934788
+MAE:	0.0013311477310023697
+Randomized search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.965 (0.016)
+
+[2022-11-25 20:56:45.734172]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.938, best=0.79612, cfg={'svr__C': 0.1, 'svr__epsilon': 0.001, 'svr__gamma': 'scale', 'svr__kernel': 'rbf'}
+MSE:	2.5878741160301143e-05
+RMSE:	0.005087115210047945
+MAE:	0.002171147419405755
+
+Inner fold #2
+>r2=0.970, best=0.88679, cfg={'svr__C': 0.8, 'svr__epsilon': 0.0005, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	7.373383396117515e-06
+RMSE:	0.0027153974655872233
+MAE:	0.0014701369041440237
+
+Inner fold #3
+>r2=0.957, best=0.93515, cfg={'svr__C': 0.3, 'svr__epsilon': 0.001, 'svr__gamma': 'scale', 'svr__kernel': 'rbf'}
+MSE:	9.494536835932122e-06
+RMSE:	0.0030813206317960684
+MAE:	0.0017527324800251582
+
+Inner fold #4
+>r2=0.972, best=0.93272, cfg={'svr__C': 0.3, 'svr__epsilon': 0.0001, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	7.557642381587053e-06
+RMSE:	0.0027491166547796864
+MAE:	0.0012461226802826504
+
+Inner fold #5
+>r2=0.983, best=0.85612, cfg={'svr__C': 0.3, 'svr__epsilon': 0.001, 'svr__gamma': 'scale', 'svr__kernel': 'rbf'}
+MSE:	6.305721741396179e-06
+RMSE:	0.0025111196190934788
+MAE:	0.0013311477310023697
+Grid search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.964 (0.015)
+
+[2022-11-25 21:01:41.804101]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.938, best=0.79612, cfg={'svr__C': 0.1, 'svr__epsilon': 0.001, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	2.5878741160301143e-05
+RMSE:	0.005087115210047945
+MAE:	0.002171147419405755
+
+Inner fold #2
+>r2=0.975, best=0.89158, cfg={'svr__C': 5, 'svr__epsilon': 0.0005, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	6.276937404042578e-06
+RMSE:	0.0025053816882947355
+MAE:	0.0012673190710666836
+
+Inner fold #3
+>r2=0.957, best=0.93515, cfg={'svr__C': 0.3, 'svr__epsilon': 0.001, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	9.494536835932122e-06
+RMSE:	0.0030813206317960684
+MAE:	0.0017527324800251582
+
+Inner fold #4
+>r2=0.972, best=0.93272, cfg={'svr__C': 0.3, 'svr__epsilon': 0.0001, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	7.557642381587053e-06
+RMSE:	0.0027491166547796864
+MAE:	0.0012461226802826504
+
+Inner fold #5
+>r2=0.983, best=0.85612, cfg={'svr__C': 0.3, 'svr__epsilon': 0.001, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	6.305721741396179e-06
+RMSE:	0.0025111196190934788
+MAE:	0.0013311477310023697
+Grid search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.965 (0.016)
+
+[2022-11-25 21:06:39.108325]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.861, best=0.74571, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': True, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.7, 'mlpregressor__learning_rate_init': 0.1, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (10, 10), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	5.819130599071986e-05
+RMSE:	0.007628322619732326
+MAE:	0.004368110537846396
+
+Inner fold #2
+>r2=0.783, best=0.78551, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.8, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (10, 8), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 'auto', 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	5.3771388536319726e-05
+RMSE:	0.007332897690294044
+MAE:	0.003265537854413045
+
+Inner fold #3
+>r2=0.797, best=0.83522, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.7, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (8, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'relu'}
+MSE:	4.448351551785749e-05
+RMSE:	0.006669596353442799
+MAE:	0.004620241783128214
+
+Inner fold #4
+>r2=0.892, best=0.82140, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': True, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.9, 'mlpregressor__learning_rate_init': 0.1, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (8, 8), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	2.8988917591099224e-05
+RMSE:	0.005384135732975091
+MAE:	0.0033821081032038625
+
+Inner fold #5
+>r2=0.886, best=0.82456, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': True, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.9, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (8, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	4.175806322905238e-05
+RMSE:	0.006462047912933823
+MAE:	0.0031998159636625707
+Randomized search with Nested K-fold Cross Validation for MLP model completed !
+
+Mean R2: 0.844 (0.046)
+
+[2022-11-28 16:57:50.632760]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.872, best=0.70695, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.7, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (8, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 128, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	5.381053883493697e-05
+RMSE:	0.007335566701689582
+MAE:	0.003590539899151872
+
+Inner fold #2
+>r2=0.776, best=0.76626, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': True, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.7, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (4, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 'auto', 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	5.539755550136287e-05
+RMSE:	0.007442953412548198
+MAE:	0.0035239042243285557
+
+Inner fold #3
+>r2=0.859, best=0.84164, cfg={'mlpregressor__solver': 'sgd', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.9, 'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (10, 8), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	3.07580620262933e-05
+RMSE:	0.005545995133994737
+MAE:	0.0034749676341705757
+
+Inner fold #4
+>r2=0.896, best=0.83497, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.9, 'mlpregressor__learning_rate_init': 0.001, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (10, 10), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	2.7907890224684526e-05
+RMSE:	0.005282791896780009
+MAE:	0.002977197155270144
+
+Inner fold #5
+>r2=0.885, best=0.81321, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': True, 'mlpregressor__random_state': None, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.7, 'mlpregressor__learning_rate_init': 0.001, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (10, 10), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__alpha': 0.0001, 'mlpregressor__activation': 'identity'}
+MSE:	4.2182382814300344e-05
+RMSE:	0.00649479659529845
+MAE:	0.0029735852965992143
+Randomized search with Nested K-fold Cross Validation for MLP model completed !
+
+Mean R2: 0.858 (0.043)
+
+[2022-11-28 17:28:51.239963]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.802, best=0.80089, cfg={'min_samples_leaf': 2, 'min_samples_split': 28, 'n_estimators': 200}
+MSE:	8.326179077138194e-05
+RMSE:	0.009124789902862527
+MAE:	0.0031616962770428187
+
+Inner fold #2
+>r2=0.801, best=0.81245, cfg={'min_samples_leaf': 8, 'min_samples_split': 20, 'n_estimators': 800}
+MSE:	4.918021622010004e-05
+RMSE:	0.007012860772901458
+MAE:	0.00236191300769782
+
+Inner fold #3
+>r2=0.905, best=0.85386, cfg={'min_samples_leaf': 2, 'min_samples_split': 20, 'n_estimators': 600}
+MSE:	2.0768558047382144e-05
+RMSE:	0.004557253344656422
+MAE:	0.0021463021407112036
+
+Inner fold #4
+>r2=0.940, best=0.84178, cfg={'min_samples_leaf': 2, 'min_samples_split': 20, 'n_estimators': 800}
+MSE:	1.601724221322844e-05
+RMSE:	0.004002154696314029
+MAE:	0.001592171116949343
+
+Inner fold #5
+>r2=0.913, best=0.84753, cfg={'min_samples_leaf': 2, 'min_samples_split': 20, 'n_estimators': 600}
+MSE:	3.1916177997767266e-05
+RMSE:	0.005649440503073491
+MAE:	0.0017848590540881493
+Grid search with Nested K-fold Cross Validation for RF model completed !
+
+Mean R2: 0.872 (0.059)
+
+[2022-11-29 20:44:35.736853]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.938, best=0.79612, cfg={'svr__C': 0.1, 'svr__epsilon': 0.001, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	2.5878741160301143e-05
+RMSE:	0.005087115210047945
+MAE:	0.002171147419405755
+
+Inner fold #2
+>r2=0.975, best=0.89158, cfg={'svr__C': 5, 'svr__epsilon': 0.0005, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	6.276937404042578e-06
+RMSE:	0.0025053816882947355
+MAE:	0.0012673190710666836
+
+Inner fold #3
+>r2=0.957, best=0.93515, cfg={'svr__C': 0.3, 'svr__epsilon': 0.001, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	9.494536835932122e-06
+RMSE:	0.0030813206317960684
+MAE:	0.0017527324800251582
+
+Inner fold #4
+>r2=0.972, best=0.93272, cfg={'svr__C': 0.3, 'svr__epsilon': 0.0001, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	7.557642381587053e-06
+RMSE:	0.0027491166547796864
+MAE:	0.0012461226802826504
+
+Inner fold #5
+>r2=0.983, best=0.85612, cfg={'svr__C': 0.3, 'svr__epsilon': 0.001, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}
+MSE:	6.305721741396179e-06
+RMSE:	0.0025111196190934788
+MAE:	0.0013311477310023697
+Grid search with Nested K-fold Cross Validation for SVM model completed !
+
+Mean R2: 0.965 (0.016)
+
+[2022-11-29 20:45:12.278240]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.997, best=0.93600, cfg={'lambda': 3, 'learning_rate': 0.08, 'n_estimators': 500, 'objective': 'reg:squarederror', 'subsample': 0.5}
+MSE:	1.2937024856377898e-06
+RMSE:	0.0011374104297208593
+MAE:	0.0006862618562551591
+
+Inner fold #2
+>r2=0.983, best=0.94071, cfg={'lambda': 5, 'learning_rate': 0.08, 'n_estimators': 350, 'objective': 'reg:squaredlogerror', 'subsample': 1}
+MSE:	4.328075774249714e-06
+RMSE:	0.0020804027913482797
+MAE:	0.0010737271147795273
+
+Inner fold #3
+>r2=0.982, best=0.97961, cfg={'lambda': 3, 'learning_rate': 0.05, 'n_estimators': 750, 'objective': 'reg:squarederror', 'subsample': 0.5}
+MSE:	3.999870303051352e-06
+RMSE:	0.001999967575500001
+MAE:	0.0009499162328132647
+
+Inner fold #4
+>r2=0.991, best=0.97133, cfg={'lambda': 0, 'learning_rate': 0.05, 'n_estimators': 750, 'objective': 'reg:squarederror', 'subsample': 0.5}
+MSE:	2.3426315932115647e-06
+RMSE:	0.0015305657755260193
+MAE:	0.0007088882806622764
+
+Inner fold #5
+>r2=0.999, best=0.95985, cfg={'lambda': 0, 'learning_rate': 0.05, 'n_estimators': 750, 'objective': 'reg:squarederror', 'subsample': 0.5}
+MSE:	4.883050363435543e-07
+RMSE:	0.0006987882628833675
+MAE:	0.00048268207542991146
+Grid search with Nested K-fold Cross Validation for XGB model completed !
+
+Mean R2: 0.990 (0.007)
+
+[2022-11-29 20:50:36.159054]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.825, best=0.66584, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': 0, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.9, 'mlpregressor__max_iter': 2000, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (4, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 'auto', 'mlpregressor__activation': 'tanh'}
+MSE:	7.349325492644254e-05
+RMSE:	0.008572820710037189
+MAE:	0.003940323721031274
+
+Inner fold #2
+>r2=0.633, best=0.79285, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': 0, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.7, 'mlpregressor__max_iter': 4000, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (10, 10), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 'auto', 'mlpregressor__activation': 'tanh'}
+MSE:	9.083087363765133e-05
+RMSE:	0.009530523261482095
+MAE:	0.00583945558522379
+
+Inner fold #3
+>r2=0.783, best=0.83974, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': 0, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.9, 'mlpregressor__max_iter': 2000, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (4, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__activation': 'tanh'}
+MSE:	4.750940757868902e-05
+RMSE:	0.006892706839746561
+MAE:	0.004234618966771596
+
+Inner fold #4
+>r2=0.827, best=0.83754, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': 0, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.7, 'mlpregressor__max_iter': 8000, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (4, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 'auto', 'mlpregressor__activation': 'tanh'}
+MSE:	4.65068335285803e-05
+RMSE:	0.006819591888711545
+MAE:	0.004841369846716231
+
+Inner fold #5
+>r2=0.759, best=0.77551, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': 0, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.9, 'mlpregressor__max_iter': 8000, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (10, 10), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 'auto', 'mlpregressor__activation': 'tanh'}
+MSE:	8.851163330914392e-05
+RMSE:	0.009408062144200787
+MAE:	0.007213719475403895
+Randomized search with Nested K-fold Cross Validation for MLP model completed !
+
+Mean R2: 0.765 (0.071)
+
+[2022-11-30 14:01:52.805394]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.895, best=0.72138, cfg={'mlpregressor__activation': 'tanh', 'mlpregressor__batch_size': 'auto', 'mlpregressor__early_stopping': True, 'mlpregressor__hidden_layer_sizes': (4, 4), 'mlpregressor__learning_rate': 'constant', 'mlpregressor__max_iter': 4000, 'mlpregressor__momentum': 0.7, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__random_state': 0, 'mlpregressor__shuffle': False, 'mlpregressor__solver': 'adam'}
+MSE:	4.3956380807645593e-05
+RMSE:	0.006629960845106523
+MAE:	0.0036947131608666764
+
+Inner fold #2
+>r2=0.633, best=0.79285, cfg={'mlpregressor__activation': 'tanh', 'mlpregressor__batch_size': 'auto', 'mlpregressor__early_stopping': True, 'mlpregressor__hidden_layer_sizes': (10, 10), 'mlpregressor__learning_rate': 'constant', 'mlpregressor__max_iter': 4000, 'mlpregressor__momentum': 0.7, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__random_state': 0, 'mlpregressor__shuffle': False, 'mlpregressor__solver': 'adam'}
+MSE:	9.083087363765133e-05
+RMSE:	0.009530523261482095
+MAE:	0.00583945558522379
+
+Inner fold #3
+>r2=0.779, best=0.88008, cfg={'mlpregressor__activation': 'tanh', 'mlpregressor__batch_size': 'auto', 'mlpregressor__early_stopping': True, 'mlpregressor__hidden_layer_sizes': (8,), 'mlpregressor__learning_rate': 'constant', 'mlpregressor__max_iter': 8000, 'mlpregressor__momentum': 0.7, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__random_state': 0, 'mlpregressor__shuffle': False, 'mlpregressor__solver': 'adam'}
+MSE:	4.842509280222134e-05
+RMSE:	0.006958814037048363
+MAE:	0.004715384493503484
+
+Inner fold #4
+>r2=0.938, best=0.86739, cfg={'mlpregressor__activation': 'tanh', 'mlpregressor__batch_size': 64, 'mlpregressor__early_stopping': True, 'mlpregressor__hidden_layer_sizes': (8,), 'mlpregressor__learning_rate': 'constant', 'mlpregressor__max_iter': 2000, 'mlpregressor__momentum': 0.7, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__random_state': 0, 'mlpregressor__shuffle': False, 'mlpregressor__solver': 'adam'}
+MSE:	1.665782823954533e-05
+RMSE:	0.004081400279260211
+MAE:	0.0030903762115427748
+
+Inner fold #5
+>r2=0.946, best=0.81240, cfg={'mlpregressor__activation': 'tanh', 'mlpregressor__batch_size': 64, 'mlpregressor__early_stopping': True, 'mlpregressor__hidden_layer_sizes': (10, 10), 'mlpregressor__learning_rate': 'constant', 'mlpregressor__max_iter': 2000, 'mlpregressor__momentum': 0.7, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__random_state': 0, 'mlpregressor__shuffle': False, 'mlpregressor__solver': 'adam'}
+MSE:	1.967002219303424e-05
+RMSE:	0.004435089874290513
+MAE:	0.0024866624916971168
+Grid search with Nested K-fold Cross Validation for MLP model completed !
+
+Mean R2: 0.838 (0.119)
+
+[2022-12-01 07:29:23.722506]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.487, best=0.29916, cfg={'n_estimators': 400, 'min_samples_split': 20, 'min_samples_leaf': 10}
+MSE:	0.00021542545009440038
+RMSE:	0.014677378856403496
+MAE:	0.004836235432649643
+
+Inner fold #2
+>r2=0.471, best=0.22762, cfg={'n_estimators': 600, 'min_samples_split': 20, 'min_samples_leaf': 2}
+MSE:	0.00013100690055013116
+RMSE:	0.011445824590222024
+MAE:	0.0045621927413912544
+
+Inner fold #3
+>r2=-0.025, best=0.45339, cfg={'n_estimators': 800, 'min_samples_split': 20, 'min_samples_leaf': 2}
+MSE:	0.0002241253497406429
+RMSE:	0.014970816602331447
+MAE:	0.0061071117933415185
+
+Inner fold #4
+>r2=0.571, best=0.34643, cfg={'n_estimators': 600, 'min_samples_split': 20, 'min_samples_leaf': 10}
+MSE:	0.0001152170963278842
+RMSE:	0.010733922690604969
+MAE:	0.003983006875097927
+
+Inner fold #5
+>r2=0.535, best=0.37054, cfg={'n_estimators': 200, 'min_samples_split': 20, 'min_samples_leaf': 8}
+MSE:	0.0001706568567900323
+RMSE:	0.013063569833320151
+MAE:	0.004251037829125021
+Randomized search with Nested K-fold Cross Validation for RF model completed
+
+Mean R2: 0.408 (0.219)
+
+[2022-12-01 18:32:09.832979]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.464, best=0.39248, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'auto', 'svr__epsilon': 5e-05, 'svr__C': 0.1}
+MSE:	0.00022528346682904456
+RMSE:	0.015009445920121253
+MAE:	0.0036609212365145134
+
+Inner fold #2
+>r2=0.294, best=0.57765, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'auto', 'svr__epsilon': 0.001, 'svr__C': 0.5}
+MSE:	0.00017463396760956397
+RMSE:	0.0132149145895675
+MAE:	0.00411591943023392
+
+Inner fold #3
+>r2=0.640, best=0.50460, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'auto', 'svr__epsilon': 0.001, 'svr__C': 0.5}
+MSE:	7.862337442459845e-05
+RMSE:	0.008866982261434746
+MAE:	0.002784248794962263
+
+Inner fold #4
+>r2=0.601, best=0.55081, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'auto', 'svr__epsilon': 0.0005, 'svr__C': 0.5}
+MSE:	0.00010716487543713562
+RMSE:	0.010352046920157173
+MAE:	0.0032544790399931713
+
+Inner fold #5
+>r2=0.571, best=0.60026, cfg={'svr__kernel': 'rbf', 'svr__gamma': 'auto', 'svr__epsilon': 0.001, 'svr__C': 1}
+MSE:	0.00015738659858821738
+RMSE:	0.012545381564074382
+MAE:	0.0028475859048010194
+Randomized search with Nested K-fold Cross Validation for SVM model completed
+
+Mean R2: 0.514 (0.125)
+
+[2022-12-01 18:32:47.161727]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.516, best=0.13422, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': 0, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.7, 'mlpregressor__max_iter': 2000, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (10,), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__activation': 'tanh'}
+MSE:	0.00020337837752842632
+RMSE:	0.01426107911514505
+MAE:	0.005909876885135146
+
+Inner fold #2
+>r2=0.576, best=0.02407, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': 0, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.7, 'mlpregressor__max_iter': 2000, 'mlpregressor__learning_rate': 'adaptive', 'mlpregressor__hidden_layer_sizes': (10, 10), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__activation': 'tanh'}
+MSE:	0.00010478777396553264
+RMSE:	0.010236589957868423
+MAE:	0.005610726558126972
+
+Inner fold #3
+>r2=0.361, best=0.31081, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': 0, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.7, 'mlpregressor__max_iter': 4000, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (10,), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 'auto', 'mlpregressor__activation': 'tanh'}
+MSE:	0.00013971246493768908
+RMSE:	0.011820002746940844
+MAE:	0.006852874163553575
+
+Inner fold #4
+>r2=0.228, best=0.39017, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': 0, 'mlpregressor__nesterovs_momentum': False, 'mlpregressor__momentum': 0.8, 'mlpregressor__max_iter': 8000, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (10, 10), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 64, 'mlpregressor__activation': 'tanh'}
+MSE:	0.0002074958530855655
+RMSE:	0.014404716348667386
+MAE:	0.008129059099263668
+
+Inner fold #5
+>r2=0.301, best=0.25264, cfg={'mlpregressor__solver': 'adam', 'mlpregressor__shuffle': False, 'mlpregressor__random_state': 0, 'mlpregressor__nesterovs_momentum': True, 'mlpregressor__momentum': 0.7, 'mlpregressor__max_iter': 2000, 'mlpregressor__learning_rate': 'constant', 'mlpregressor__hidden_layer_sizes': (4, 4), 'mlpregressor__early_stopping': True, 'mlpregressor__batch_size': 128, 'mlpregressor__activation': 'tanh'}
+MSE:	0.00025670455995666075
+RMSE:	0.01602200237038619
+MAE:	0.007045528406513461
+Randomized search with Nested K-fold Cross Validation for MLP model completed
+
+Mean R2: 0.396 (0.131)
+
+[2022-12-01 18:43:29.859118]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+
+Configuring nested k-fold cross-validation procedure (with 5 outer and 5 inner folds) ...
+
+Inner fold #1
+>r2=0.986, best=0.74300, cfg={'subsample': 1, 'objective': 'reg:squarederror', 'n_estimators': 350, 'learning_rate': 0.08, 'lambda': 5}
+MSE:	5.923416948976104e-06
+RMSE:	0.00243380708951554
+MAE:	0.0011242125289219534
+
+Inner fold #2
+>r2=0.901, best=0.87892, cfg={'subsample': 1, 'objective': 'reg:squarederror', 'n_estimators': 350, 'learning_rate': 0.08, 'lambda': 3}
+MSE:	2.4464633970794564e-05
+RMSE:	0.004946173669696057
+MAE:	0.0019793440923101535
+
+Inner fold #3
+>r2=0.906, best=0.82901, cfg={'subsample': 0.5, 'objective': 'reg:squaredlogerror', 'n_estimators': 500, 'learning_rate': 0.08, 'lambda': 0}
+MSE:	2.0565474714884644e-05
+RMSE:	0.004534917277623115
+MAE:	0.0015786826362462134
+
+Inner fold #4
+>r2=0.959, best=0.87049, cfg={'subsample': 1, 'objective': 'reg:squaredlogerror', 'n_estimators': 500, 'learning_rate': 0.08, 'lambda': 3}
+MSE:	1.0914591065483368e-05
+RMSE:	0.003303723817979246
+MAE:	0.0015112882838807852
+
+Inner fold #5
+>r2=0.985, best=0.81812, cfg={'subsample': 1, 'objective': 'reg:squaredlogerror', 'n_estimators': 750, 'learning_rate': 0.08, 'lambda': 3}
+MSE:	5.608338716550614e-06
+RMSE:	0.0023681931332876155
+MAE:	0.001109183109592218
+Randomized search with Nested K-fold Cross Validation for XGB model completed
+
+Mean R2: 0.947 (0.037)
+
+[2022-12-01 18:45:37.087397]
+----------------------------------------------------------------------------------------------------

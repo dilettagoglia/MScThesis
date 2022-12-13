@@ -1,0 +1,1 @@
+{"subsample": 1, "objective": "reg:squarederror", "n_estimators": 350, "learning_rate": 0.08, "lambda": 5}
